@@ -46,22 +46,6 @@ h2 {
   margin: 0 auto;
 }
 
-.mainhead {
-  width: 50%;
-  min-height: 7vh;
-  background-color: #282c34;
-  color: white;
-  width: auto;
-  margin: 5% auto 1%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-}
-.mainhead h2 {
-  margin: 0;
-}
-
 .image img {
   width: 85%;
   /* max-height: 90vh; */

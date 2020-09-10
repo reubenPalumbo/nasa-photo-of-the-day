@@ -1,11 +1,16 @@
 import React from "react";
+import styles from "styled-components";
+
+const HeaderStyle = styles.header`
+  h1{
+    font-size: 3rem;
+  }
+`;
 
 export default function Header() {
   return (
-    <header className="App-header">
-      <p>This is the</p>
-      <h2>Astronomy Photo of the Day</h2>
-      <p>aka APOD</p>
-    </header>
+    <HeaderStyle className="App-header">
+      <h1>Astronomy Photo of the Day</h1>
+    </HeaderStyle>
   );
 }
